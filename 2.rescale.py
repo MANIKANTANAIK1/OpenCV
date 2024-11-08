@@ -14,7 +14,7 @@ def rescaleFrame(frame,scale=0.75):
 
 
 def changeRes(width,height):
-    #This fun is useful only for Live_Videos
+    #This method is useful only for Live_Videos
     capture.set(3,width)
     capture.set(4,height)
 
